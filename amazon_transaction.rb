@@ -9,7 +9,7 @@ class AmazonTransaction
   end
  
  
-  def add_item(title, price, quantity= 3)
+  def add_item(title, price, quantity= 0)
     @title = title
     @price = price
     @total += price
