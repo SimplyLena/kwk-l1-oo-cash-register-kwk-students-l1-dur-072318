@@ -11,3 +11,5 @@ class AmazonTransaction
     puts amazon_transaction_total
 end
 end
+
+amazon1 = AmazonTransaction.new("100,3")
