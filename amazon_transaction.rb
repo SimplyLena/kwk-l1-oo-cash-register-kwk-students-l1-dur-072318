@@ -7,4 +7,5 @@ class AmazonTransaction
   end 
   def current_total
     @current_total = current total
+    return current_total
 end
