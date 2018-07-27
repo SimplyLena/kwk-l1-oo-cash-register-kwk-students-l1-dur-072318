@@ -3,5 +3,5 @@ class AmazonTransaction
   def initilize(total=0)
     @total = total
   end 
-  attr_accessor:amazon_transaction
+  def
 end
