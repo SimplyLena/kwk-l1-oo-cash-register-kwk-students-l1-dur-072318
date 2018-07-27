@@ -5,4 +5,5 @@ class AmazonTransaction
     @items = items
     @discount = discount
   end 
+  def current_total
 end
