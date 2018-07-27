@@ -7,5 +7,7 @@ class AmazonTransaction
     @discount = total-discount
     
   end 
+  
+  def add_item
 end
 
