@@ -9,6 +9,8 @@ class AmazonTransaction
   end 
   def add_item 
     @add_item = title + price
-  end
     end
+    
+    def apply_discount
+      @apply_discount = apply_discount
 
