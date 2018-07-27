@@ -23,6 +23,5 @@ class AmazonTransaction
     
     def apply_discount
       @apply_discount = total *0.80
-      puts
     end
 end
