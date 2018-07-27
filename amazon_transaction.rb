@@ -10,12 +10,13 @@ class AmazonTransaction
  
  
   def add_item(title, price)
-    @add_item = title + price
     @title = title
     @price += price
     @total += price
     end
     
     def apply_discount
-      @apply_discount = total *0.00
+      @apply_discount = total *0.80
+      puts
+    end
 
