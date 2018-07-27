@@ -14,6 +14,7 @@ class AmazonTransaction
     @price = price
     @total += price
     @items.push(title)
+    @quantity = quantity
     end
     
     def quantity
