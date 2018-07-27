@@ -13,6 +13,7 @@ class AmazonTransaction
     @title = title
     @price += price
     @total += price
+    @items.push(title)
     end
     
     def apply_discount
