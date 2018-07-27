@@ -16,6 +16,10 @@ class AmazonTransaction
     @items.push(title)
     end
     
+    def quantity
+      @quantity = quantity
+    end
+    
     def apply_discount
       @apply_discount = total *0.80
       puts
