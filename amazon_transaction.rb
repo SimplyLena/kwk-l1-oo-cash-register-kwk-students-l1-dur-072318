@@ -4,7 +4,7 @@ class AmazonTransaction
   def initialize(total=0,items=[],discount=0)
     @total = total
     @items = items
-    @discount = discount-total
+    @discount = total-dsicount
     
   end 
  
