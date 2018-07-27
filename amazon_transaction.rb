@@ -6,7 +6,8 @@ class AmazonTransaction
     @discount = discount
     
   end 
-  def total
-    @total = total
+  def amazon_transaction("100")
+    @amazon_transaction_total= amazon_transaction_total
+    puts amazon_transaction_total
 end
 end
